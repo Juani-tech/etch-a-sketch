@@ -6,9 +6,27 @@ body {
     height: 100vh;
 }
 
+header {
+    background-color: #302f2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid #302f2b;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .main-container {
     display: flex;
-    height: 100%;
+    height: 90%;
     flex: 1 1 auto;
     flex-wrap: wrap;
 }
+
